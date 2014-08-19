@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bordercolored" >
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/accpet"
+        android:layout_alignParentTop="true"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/reject"
+        android:layout_centerHorizontal="true"
+        android:text="Don&apos;t" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_margin="10dp"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@drawable/reject"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Cancel" />
+
+</RelativeLayout>

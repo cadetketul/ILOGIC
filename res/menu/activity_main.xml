@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:showAsAction="never" android:menuCategory="system"/>
+    <item android:id="@+id/runcode" android:menuCategory="container" android:showAsAction="always" android:visible="true" android:title="@string/run"></item>
+    <item android:id="@+id/viewvariables" android:showAsAction="never" android:menuCategory="system" android:title="@string/viewvariable"></item>
+    <item android:id="@+id/scan"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/connect" />
+    <item android:id="@+id/discoverable"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="@string/discoverable" />
+</menu>
